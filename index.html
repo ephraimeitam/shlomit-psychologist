@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="שלומית איתם - פסיכולוגית קלינית בכירה בירושלים. טיפול בטראומה, EMDR, חרדה, דיכאון ועוד.">
+  <title>שלומית איתם | פסיכולוגית קלינית בכירה</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700&family=Heebo:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="nav" id="nav">
+    <div class="nav__container">
+      <a href="#" class="nav__logo" data-i18n="nav_name">שלומית איתם</a>
+
+      <div class="nav__links">
+        <a href="#about" class="nav__link" data-i18n="nav_about">אודות</a>
+        <a href="#services" class="nav__link" data-i18n="nav_services">תחומי טיפול</a>
+        <a href="#background" class="nav__link" data-i18n="nav_background">רקע</a>
+        <a href="#education" class="nav__link" data-i18n="nav_education">השכלה</a>
+        <a href="#contact" class="nav__link" data-i18n="nav_contact">צור קשר</a>
+      </div>
+
+      <div class="nav__right">
+        <div class="nav__lang">
+          <button class="lang-btn active" data-lang="he">עברית</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="nav__hamburger" id="hamburger" aria-label="תפריט">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="nav__mobile" id="mobile-menu">
+      <a href="#about" class="nav__link" data-i18n="nav_about">אודות</a>
+      <a href="#services" class="nav__link" data-i18n="nav_services">תחומי טיפול</a>
+      <a href="#background" class="nav__link" data-i18n="nav_background">רקע</a>
+      <a href="#education" class="nav__link" data-i18n="nav_education">השכלה</a>
+      <a href="#contact" class="nav__link" data-i18n="nav_contact">צור קשר</a>
+      <div class="nav__lang">
+        <button class="lang-btn active" data-lang="he">עברית</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="en">English</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero__container">
+      <div class="hero__content">
+        <p class="hero__label" data-i18n="hero_label">פסיכולוגית קלינית בכירה</p>
+        <h1 class="hero__name" data-i18n="hero_name">שלומית איתם</h1>
+        <p class="hero__tagline" data-i18n="hero_tagline">מרחב טיפולי חם ובטוח בירושלים</p>
+        <div class="hero__divider"></div>
+        <p class="hero__description" data-i18n="hero_description">
+          עם למעלה מעשרים וחמש שנות ניסיון, אני מלווה מבוגרים ומתבגרים
+          בתהליכי צמיחה והחלמה — מתוך אמונה בכוח הריפוי של מרחב טיפולי
+          אמפתי ומקצועי.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary" data-i18n="hero_cta">לתיאום פגישה</a>
+          <a href="#about" class="btn btn--secondary" data-i18n="hero_learn_more">קראו עוד</a>
+        </div>
+      </div>
+
+      <div class="hero__image-wrap">
+        <div class="hero__image-bg"></div>
+        <div class="hero__image-frame">
+          <img src="assets/photo.jpg"
+               alt="שלומית איתם - פסיכולוגית קלינית"
+               class="hero__image"
+               data-i18n-alt="hero_img_alt">
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll-hint">
+      <span class="scroll-label" data-i18n="scroll_down">גללו למטה</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="about_label">היכרות</span>
+        <h2 class="section-title" data-i18n="about_title">אודותי</h2>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__text">
+          <p class="about__intro" data-i18n="about_intro">
+            אני מאמינה שכל אדם טומן בתוכו את הכוח לצמוח, להחלים ולהשתנות.
+            תפקידי כמטפלת הוא לספק את המרחב הבטוח, החם והמקצועי שבו תהליך זה יכול לקרות.
+          </p>
+          <p data-i18n="about_p1">
+            במשך למעלה מעשרים וחמש שנה, אני מלווה מבוגרים ומתבגרים המתמודדים עם טראומה,
+            חרדה, דיכאון, משברי חיים וקשיים בינאישיים. הגישה שלי היא פסיכודינמית,
+            ואני משלבת בה את שיטת ה-EMDR — גישה מבוססת מחקר לטיפול בטראומה ובחרדה.
+          </p>
+          <p data-i18n="about_p2">
+            כיום אני משמשת כפסיכולוגית ראשית במרפאת טלביה של קופת חולים כללית בירושלים,
+            ומנהלת במקביל קליניקה פרטית. לצד העבודה הטיפולית, אני מדריכה פסיכולוגים
+            בהתמחות ומובילה קבוצות טיפוליות.
+          </p>
+        </div>
+
+        <div class="about__credentials">
+          <div class="credential-card">
+            <div class="credential-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <div>
+              <h4 data-i18n="cred_ma_title">תואר שני</h4>
+              <p data-i18n="cred_ma">פסיכולוגיה חינוכית וקלינית, האוניברסיטה העברית, ירושלים</p>
+            </div>
+          </div>
+
+          <div class="credential-card">
+            <div class="credential-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+                <polyline points="10 9 9 9 8 9"/>
+              </svg>
+            </div>
+            <div>
+              <h4 data-i18n="cred_cert_title">הסמכה להדרכה</h4>
+              <p data-i18n="cred_cert">פסיכולוגיה קלינית, פסיכותרפיה ופסיכודיאגנוסטיקה</p>
+            </div>
+          </div>
+
+          <div class="credential-card">
+            <div class="credential-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>
+            </div>
+            <div>
+              <h4 data-i18n="cred_emdr_title">מוסמכת EMDR</h4>
+              <p data-i18n="cred_emdr">המרכז הישראלי ל-EMDR, הסמכה מ-2022</p>
+            </div>
+          </div>
+
+          <div class="credential-card">
+            <div class="credential-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+            <div>
+              <h4 data-i18n="cred_current_title">תפקיד נוכחי</h4>
+              <p data-i18n="cred_current">פסיכולוגית ראשית, מרפאת טלביה, קופ"ח כללית, ירושלים</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="section section--alt services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="services_label">מה אני מציעה</span>
+        <h2 class="section-title" data-i18n="services_title">תחומי טיפול</h2>
+        <p class="section-subtitle" data-i18n="services_subtitle">
+          אני מטפלת במבוגרים ומתבגרים בקשת רחבה של קשיים נפשיים ורגשיים,
+          תוך התאמת הגישה לצרכיו הייחודיים של כל אדם.
+        </p>
+      </div>
+
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.46 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3z"/>
+              <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.46 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="service1_title">טראומה ו-EMDR</h3>
+          <p class="service-card__desc" data-i18n="service1_desc">
+            טיפול בחוויות טראומטיות, PTSD ולחצים מורכבים, בשיטת ה-EMDR
+            ובגישה פסיכודינמית — לשחרור מהעבר ולבניית עתיד.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="service2_title">חרדה ודיכאון</h3>
+          <p class="service-card__desc" data-i18n="service2_desc">
+            ליווי מקצועי לאנשים המתמודדים עם הפרעות חרדה, פוביות, פאניקה,
+            דיכאון ומצבי רוח — בדרך להקלה ולשינוי.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10"/>
+              <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="service3_title">משברי חיים</h3>
+          <p class="service-card__desc" data-i18n="service3_desc">
+            תמיכה בתקופות מאתגרות — שכול ואובדן, גירושין, שינויים תעסוקתיים,
+            משברי זהות ומעברי חיים — בדרך לגמישות ולחוסן.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="service4_title">קשיים בינאישיים</h3>
+          <p class="service-card__desc" data-i18n="service4_desc">
+            עבודה על דפוסי קשר, גבולות, קשיים ביחסים אינטימיים,
+            ניהול קונפליקטים ובניית מערכות יחסים בריאות ומספקות.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="service5_title">ניצולי פגיעות מיניות</h3>
+          <p class="service-card__desc" data-i18n="service5_desc">
+            ליווי מיוחד לניצולי פגיעות מיניות — בפרט לאלו שנפגעו בילדות —
+            בדרך לריפוי, להעצמה ולשיקום הזהות.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="5" r="3"/>
+              <circle cx="5" cy="19" r="3"/>
+              <circle cx="19" cy="19" r="3"/>
+              <line x1="12" y1="8" x2="5.5" y2="16.5"/>
+              <line x1="12" y1="8" x2="18.5" y2="16.5"/>
+              <line x1="7.5" y1="19" x2="16.5" y2="19"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="service6_title">טיפול קבוצתי</h3>
+          <p class="service-card__desc" data-i18n="service6_desc">
+            הנחיה של קבוצות טיפוליות — כוחה של הקבוצה ליצור שינוי עמוק
+            ומשמעותי, דרך חיבור, הכלה ועבודה משותפת.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROFESSIONAL BACKGROUND ===================== -->
+  <section class="section background" id="background">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="bg_label">ניסיון מקצועי</span>
+        <h2 class="section-title" data-i18n="bg_title">רקע מקצועי</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date" data-i18n="tl1_date">2023 – היום</span>
+            <h3 class="timeline-title" data-i18n="tl1_title">פסיכולוגית ראשית — מרפאת טלביה, קופ"ח כללית</h3>
+            <p class="timeline-desc" data-i18n="tl1_desc">
+              מובילה את הצוות הפסיכולוגי במרפאה, מדריכה פסיכולוגים בהתמחות ומנהלת
+              תהליכים טיפוליים מורכבים עבור מגוון מטופלים.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date" data-i18n="tl2_date">2017 – היום</span>
+            <h3 class="timeline-title" data-i18n="tl2_title">פסיכולוגית — מרפאת ויניק-טלביה, קופ"ח כללית</h3>
+            <p class="timeline-desc" data-i18n="tl2_desc">
+              פסיכותרפיה בגישה דינמית, טיפולים בטראומה בשיטת EMDR,
+              טיפולים קבוצתיים והדרכת מתמחים בפסיכולוגיה קלינית.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date" data-i18n="tl3_date">2014 – היום</span>
+            <h3 class="timeline-title" data-i18n="tl3_title">מנחת קבוצה — עמותת "יחד מחושך לאור"</h3>
+            <p class="timeline-desc" data-i18n="tl3_desc">
+              הנחיה של קבוצה טיפולית למבוגרים שנפגעו מינית בילדות,
+              יחד עם הפסיכולוג עמוס ספיבק.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date" data-i18n="tl4_date">2007 – היום</span>
+            <h3 class="timeline-title" data-i18n="tl4_title">קליניקה פרטית — ירושלים</h3>
+            <p class="timeline-desc" data-i18n="tl4_desc">
+              טיפול במבוגרים ומתבגרים: משברי חיים, טראומה, פגיעות מיניות,
+              הפרעות חרדה, דיכאון וקשיים בינאישיים. גישה דינמית ו-EMDR.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date" data-i18n="tl5_date">2015 – 2018</span>
+            <h3 class="timeline-title" data-i18n="tl5_title">מדריכת צוות — מרכז החירום החרדי "מבטח עוז"</h3>
+            <p class="timeline-desc" data-i18n="tl5_desc">
+              הדרכת הצוות הטיפולי ואחריות על ההתמחות במרכז החירום החרדי לילדים בירושלים.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item--last">
+          <div class="timeline-marker">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date" data-i18n="tl6_date">2005 – 2015</span>
+            <h3 class="timeline-title" data-i18n="tl6_title">ראש צוות טיפולי — פנימיית "בית הילד", ירושלים</h3>
+            <p class="timeline-desc" data-i18n="tl6_desc">
+              עשור של עבודה טיפולית, ניהול והדרכה בפנימייה הטיפולית,
+              כולל התמחות מעמיקה בנושא פגיעות מיניות.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section class="section section--alt education" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="edu_label">השכלה והכשרה</span>
+        <h2 class="section-title" data-i18n="edu_title">השכלה מקצועית</h2>
+      </div>
+
+      <div class="education__grid">
+        <div class="edu-card">
+          <div class="edu-card__year" data-i18n="edu1_year">1997 – 2000</div>
+          <div class="edu-card__content">
+            <h4 data-i18n="edu1_title">תואר שני — האוניברסיטה העברית</h4>
+            <p data-i18n="edu1_desc">פסיכולוגיה חינוכית וקלינית של הילד, ירושלים</p>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-card__year" data-i18n="edu2_year">1993 – 1996</div>
+          <div class="edu-card__content">
+            <h4 data-i18n="edu2_title">תואר ראשון — אוניברסיטת בר-אילן</h4>
+            <p data-i18n="edu2_desc">פסיכולוגיה</p>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-card__year" data-i18n="edu3_year">2010 – 2012</div>
+          <div class="edu-card__content">
+            <h4 data-i18n="edu3_title">הסמכה להדרכה</h4>
+            <p data-i18n="edu3_desc">פסיכולוגיה קלינית, פסיכותרפיה ופסיכודיאגנוסטיקה</p>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-card__year" data-i18n="edu4_year">2016 – 2017</div>
+          <div class="edu-card__content">
+            <h4 data-i18n="edu4_title">הסמכת EMDR — שלב 1 ו-2</h4>
+            <p data-i18n="edu4_desc">המרכז הישראלי ל-EMDR</p>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-card__year" data-i18n="edu5_year">2023 – 2024</div>
+          <div class="edu-card__content">
+            <h4 data-i18n="edu5_title">קורס ACT</h4>
+            <p data-i18n="edu5_desc">במערך בריאות הנפש של כללית, ירושלים</p>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-card__year" data-i18n="edu6_year">2024 – 2025</div>
+          <div class="edu-card__content">
+            <h4 data-i18n="edu6_title">טיפול קבוצתי</h4>
+            <p data-i18n="edu6_desc">המכון לאנליזה קבוצתית, עם הדרכה מתמשכת של גליה נתיב</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="edu-download">
+        <a href="assets/cv.pdf" download class="btn btn--outline" data-i18n="edu_download">
+          הורדת קורות חיים מלאים
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="contact_label">בואו נדבר</span>
+        <h2 class="section-title" data-i18n="contact_title">צרו קשר</h2>
+        <p class="section-subtitle" data-i18n="contact_subtitle">
+          אם אתם מרגישים שהגיע הזמן לעשות שינוי, אשמח לשמוע מכם ולקבוע פגישת היכרות.
+        </p>
+      </div>
+
+      <div class="contact__cards">
+        <a href="tel:0547501781" class="contact-card">
+          <div class="contact-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.6 1.26h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.93-.93a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+          <h3 class="contact-card__label" data-i18n="contact_phone_label">טלפון</h3>
+          <p class="contact-card__value" dir="ltr">054-7501781</p>
+        </a>
+
+        <a href="mailto:shlomit.eitam@gmail.com" class="contact-card">
+          <div class="contact-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <h3 class="contact-card__label" data-i18n="contact_email_label">דוא"ל</h3>
+          <p class="contact-card__value">shlomit.eitam@gmail.com</p>
+        </a>
+
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <h3 class="contact-card__label" data-i18n="contact_location_label">מיקום</h3>
+          <p class="contact-card__value" data-i18n="contact_location">ירושלים והסביבה</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__name" data-i18n="footer_name">שלומית איתם</p>
+      <p class="footer__title" data-i18n="footer_title">פסיכולוגית קלינית בכירה</p>
+      <p class="footer__copy" data-i18n="footer_copy">© 2026 כל הזכויות שמורות</p>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
